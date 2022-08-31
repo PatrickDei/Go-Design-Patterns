@@ -5,6 +5,7 @@ import (
 	"DesignPatterns/adapter"
 	"DesignPatterns/bridge"
 	"DesignPatterns/chainofresponsibility"
+	"DesignPatterns/command"
 )
 
 func main() {
@@ -12,4 +13,5 @@ func main() {
 	adapter.ShowcaseAdapter()
 	bridge.ShowcaseBridge()
 	chainofresponsibility.ShowcaseChainOfResponsibility()
+	command.ShowcaseCommand()
 }
