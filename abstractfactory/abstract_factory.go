@@ -3,6 +3,7 @@ package abstractfactory
 import "fmt"
 
 func ShowcaseAbstractFactory() {
+	fmt.Println("\nAbstract Factory pattern")
 	corsFactory := CorsairWorkSetupFactory{}
 	logiFactory := LogitechWorkSetupFactory{}
 
