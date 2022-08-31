@@ -14,6 +14,7 @@ import (
 	"DesignPatterns/iterator"
 	"DesignPatterns/mediator"
 	"DesignPatterns/memento"
+	"DesignPatterns/observer"
 )
 
 func main() {
@@ -30,4 +31,5 @@ func main() {
 	iterator.ShowcaseIterator()
 	mediator.ShowcaseMediator()
 	memento.ShowcaseMemento()
+	observer.ShowcaseObserver()
 }
