@@ -13,6 +13,7 @@ import (
 	"DesignPatterns/flyweight"
 	"DesignPatterns/iterator"
 	"DesignPatterns/mediator"
+	"DesignPatterns/memento"
 )
 
 func main() {
@@ -28,4 +29,5 @@ func main() {
 	flyweight.ShowcaseFlyweight()
 	iterator.ShowcaseIterator()
 	mediator.ShowcaseMediator()
+	memento.ShowcaseMemento()
 }
