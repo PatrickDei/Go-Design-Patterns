@@ -12,6 +12,7 @@ import (
 	"DesignPatterns/factorymethod"
 	"DesignPatterns/flyweight"
 	"DesignPatterns/iterator"
+	"DesignPatterns/mediator"
 )
 
 func main() {
@@ -26,4 +27,5 @@ func main() {
 	factorymethod.ShowcaseFactoryMethod()
 	flyweight.ShowcaseFlyweight()
 	iterator.ShowcaseIterator()
+	mediator.ShowcaseMediator()
 }
