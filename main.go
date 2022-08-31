@@ -7,6 +7,7 @@ import (
 	"DesignPatterns/chainofresponsibility"
 	"DesignPatterns/command"
 	"DesignPatterns/composite"
+	"DesignPatterns/decorator"
 )
 
 func main() {
@@ -16,4 +17,5 @@ func main() {
 	chainofresponsibility.ShowcaseChainOfResponsibility()
 	command.ShowcaseCommand()
 	composite.ShowcaseComposite()
+	decorator.ShowcaseDecorator()
 }
