@@ -6,6 +6,7 @@ import (
 	"DesignPatterns/bridge"
 	"DesignPatterns/chainofresponsibility"
 	"DesignPatterns/command"
+	"DesignPatterns/composite"
 )
 
 func main() {
@@ -14,4 +15,5 @@ func main() {
 	bridge.ShowcaseBridge()
 	chainofresponsibility.ShowcaseChainOfResponsibility()
 	command.ShowcaseCommand()
+	composite.ShowcaseComposite()
 }
