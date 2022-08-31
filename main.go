@@ -9,6 +9,7 @@ import (
 	"DesignPatterns/composite"
 	"DesignPatterns/decorator"
 	"DesignPatterns/facade"
+	"DesignPatterns/factorymethod"
 )
 
 func main() {
@@ -20,4 +21,5 @@ func main() {
 	composite.ShowcaseComposite()
 	decorator.ShowcaseDecorator()
 	facade.ShowcaseFacade()
+	factorymethod.ShowcaseFactoryMethod()
 }
