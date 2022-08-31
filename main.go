@@ -10,6 +10,7 @@ import (
 	"DesignPatterns/decorator"
 	"DesignPatterns/facade"
 	"DesignPatterns/factorymethod"
+	"DesignPatterns/flyweight"
 )
 
 func main() {
@@ -22,4 +23,5 @@ func main() {
 	decorator.ShowcaseDecorator()
 	facade.ShowcaseFacade()
 	factorymethod.ShowcaseFactoryMethod()
+	flyweight.ShowcaseFlyweight()
 }
