@@ -17,6 +17,7 @@ import (
 	"DesignPatterns/observer"
 	"DesignPatterns/prototype"
 	"DesignPatterns/proxy"
+	"DesignPatterns/singleton"
 )
 
 func main() {
@@ -36,4 +37,5 @@ func main() {
 	observer.ShowcaseObserver()
 	prototype.ShowcasePrototype()
 	proxy.ShowcaseProxy()
+	singleton.ShowcaseSingleton()
 }
