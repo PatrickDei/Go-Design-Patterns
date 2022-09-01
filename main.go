@@ -16,6 +16,7 @@ import (
 	"DesignPatterns/memento"
 	"DesignPatterns/observer"
 	"DesignPatterns/prototype"
+	"DesignPatterns/proxy"
 )
 
 func main() {
@@ -34,4 +35,5 @@ func main() {
 	memento.ShowcaseMemento()
 	observer.ShowcaseObserver()
 	prototype.ShowcasePrototype()
+	proxy.ShowcaseProxy()
 }
