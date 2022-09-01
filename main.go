@@ -19,6 +19,7 @@ import (
 	"DesignPatterns/proxy"
 	"DesignPatterns/singleton"
 	"DesignPatterns/state"
+	"DesignPatterns/strategy"
 )
 
 func main() {
@@ -39,5 +40,6 @@ func main() {
 	prototype.ShowcasePrototype()
 	proxy.ShowcaseProxy()
 	state.ShowcaseState()
+	strategy.ShowcaseStrategy()
 	singleton.ShowcaseSingleton()
 }
