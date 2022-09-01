@@ -21,6 +21,7 @@ import (
 	"DesignPatterns/state"
 	"DesignPatterns/strategy"
 	"DesignPatterns/templatemethod"
+	"DesignPatterns/visitor"
 )
 
 func main() {
@@ -43,5 +44,6 @@ func main() {
 	state.ShowcaseState()
 	strategy.ShowcaseStrategy()
 	templatemethod.ShowcaseTemplateMethod()
+	visitor.ShowcaseVisitor()
 	singleton.ShowcaseSingleton()
 }
